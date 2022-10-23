@@ -292,8 +292,8 @@ void ao() {
     for (i = 1; i <= x; i++) {
       result *= i;
     }
-    printf("Factorial of %f is %f", x, result);
-    printf("\nPress < 0 > to exit\n");
+    printf("\nFactorial of %f is %f", x, result);
+    printf("\n\n\n\n\nPress < 0 > to exit\n");
     printf("\nPress < 1 > to go back to previous page!\n");
     scanf("%d", &e);
     if (e == 1) {
